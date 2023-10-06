@@ -47,6 +47,7 @@
     "medusa-payment-stripe": "^6.0.4",
     "prism-react-renderer": "^2.0.4",
     "react-chartjs-2": "^5.2.0",
+    "recharts": "^2.8.0",
     "typeorm": "^0.3.16"
   },
   "devDependencies": {

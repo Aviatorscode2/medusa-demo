@@ -7,7 +7,9 @@ const RecentOrders = () => {
 
   return (
     <div className="w-full col-span-1 relative lg:h-[70vh] h-[50vh] m-auto p-4 rounded-lg bg-white overflow-scroll">
-      <h1>Recent Orders</h1>
+      <h1 className="text-center inter-large-semibold text-[#1F2937]">
+        Recent Orders
+      </h1>
       {isLoading && <span>Loading...</span>}
       {orders && !orders.length && <span>No Orders</span>}
       {orders && orders.length > 0 && (

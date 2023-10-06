@@ -1,6 +1,15 @@
 import { Text } from '@medusajs/ui';
 
+import { useAdminProducts } from 'medusa-react';
+
+
 const TopCards = () => {
+const { products } = useAdminProducts();
+  const totalQtySold = products.map((product) => {
+    
+
+  })
+
   return (
     <div className="gap-y-large flex flex-col">
       <div className=" 'p-4 gap-y-2xsmall flex flex-col">
