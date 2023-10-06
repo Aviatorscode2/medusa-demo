@@ -1,8 +1,8 @@
 import { RouteConfig } from '@medusajs/admin';
 import { CircleStack } from '@medusajs/icons';
 import TopCards from './components/TopCards';
-// import BarChart from './components/BarChart';
-// import RecentOrders from './components/RecentOrders';
+import BarChart from './components/BarChart';
+import RecentOrders from './components/RecentOrders';
 import { useProducts } from 'medusa-react';
 
 const Sales = () => {
@@ -14,8 +14,8 @@ const Sales = () => {
     <div>
       <TopCards />
       <div className="p-4 grid grid-cols-2 gap-4">
-        {/* <BarChart /> */}
-        {/* <RecentOrders /> */}
+        <BarChart />
+        <RecentOrders />
       </div>
     </div>
   );
